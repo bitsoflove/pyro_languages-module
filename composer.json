@@ -1,9 +1,20 @@
 {
-    "name": "bitsoflove/languages-module",
-    "type": "streams-addon",
-    "autoload": {
-        "psr-4": {
-            "Bitsoflove\\LanguagesModule\\": "src/"
-        }
+  "name": "bitsoflove/languages-module",
+  "type": "streams-addon",
+  "autoload": {
+    "psr-4": {
+      "Bitsoflove\\LanguagesModule\\": "src/"
     }
+  },
+  "keywords": [
+    "pyro",
+    "module"
+  ],
+  "authors": [
+    {
+      "name": "Bits of Love",
+      "email": "docotorlove@bitsoflove.be",
+      "role": "Developer"
+    }
+  ]
 }
