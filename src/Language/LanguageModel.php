@@ -6,4 +6,6 @@ use Anomaly\Streams\Platform\Model\Languages\LanguagesLanguagesEntryModel;
 class LanguageModel extends LanguagesLanguagesEntryModel implements LanguageInterface
 {
 
+    protected $with = ['translations'];
+
 }
